@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');   
 
 body {
   padding: 0;
@@ -198,12 +198,27 @@ article p {
 }
 
 .inflation-grid-container{
+  margin: 0 auto;
+  width: 65%;
   display: grid;
-  border: 1px solid #000;
   grid-template-columns: auto auto auto auto;
   padding: 20px;
 }
 
 .inflation-description{
   display: block;
+}
+
+.inflation-item  img{
+  max-width: 240px;
+  max-height: 132px;
+}
+
+.inflation-description{
+  width: 240px;
+  font-family: arial, serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height:17px
+
 }
