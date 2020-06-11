@@ -106,6 +106,7 @@ h1>span{
   flex-direction: column;
   align-items: flex-start;
   padding-left: 30%;
+  width: 50%;
 }
 
 #writer {
@@ -117,8 +118,12 @@ h1>span{
   display: block;
 }
 
+article {
+  margin-right: 40px;
+}
+
 article p {
-  width: 65%;
+  width: 80%;
 }
 
 .main-icons{
@@ -128,31 +133,68 @@ article p {
   margin-left: 0;
 }
 
+.main-icons-right {
+  display: flex;
+}
+
+.main-icons-right div {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(238, 238, 238);
+  border-radius: 50%;
+  margin-left: 10px;
+  
+}
+
+
+.main-icons-right div img {
+  padding-top: 7px;
+}
+
+.main-icons-right :nth-child(5) {
+  background-color: white;
+}
+
+
 .article-subscribe {
   text-align: center;
 }
 
-section {
+.article-subscribe p {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.section-2 {
   display: flex;
 }
 
-section aside {
+.section-2 aside {
   align-self: center;
-  margin-right: 15px;
+  margin-right: 20%;
   
 }
 
-section aside img {
+.section-2 aside img {
   width: 75px;
   height: 75px;
 }
 
-section aside div {
+.section-2 aside div {
   display: flex;
+  margin-bottom: 15px;
+}
+
+.section-2 aside div p {
+  width: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .real-container {
-  width: 90%;
+  width: 100%;
+  display: flex;
 }
 
 .inflation-grid-container{
