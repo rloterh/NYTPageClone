@@ -252,11 +252,12 @@ article p {
   width: 735px;
   height: 358px;
   
- };
+ }
 
-.super {
-  width: 100px;
-  height: 100px;
+.super #super-jumbo-two {
+  width: 80%;
+  height: 500px;
+  margin-bottom: 20px;
 }
 
  
