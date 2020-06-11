@@ -69,3 +69,37 @@ form button{
   text-decoration: underline;
   padding-right: 20px;
 }
+
+.main-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-img img, .main-img p{
+  width: 65%;
+  color: #6666;
+}
+
+.main-img p > span {
+  color: #a7a8a7;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#writer {
+  width: 100%;
+}
+
+#writer h4 {
+  position: absolute;
+  left: 17.5%;
+}
+
+article p {
+  width: 65%;
+}
