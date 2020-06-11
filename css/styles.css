@@ -70,6 +70,22 @@ form button{
   padding-right: 20px;
 }
 
+h1{
+  font-family:georgia, "times new roman", times, serif;
+  font-size: 38px;
+  color: #121212;
+  font-weight: 700;
+  line-height: 48px;
+  font-style: italic;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 34%;
+}
+
+h1>span{
+  text-align: left;
+}
+
 .main-img {
   display: flex;
   flex-direction: column;
@@ -88,7 +104,8 @@ form button{
 article {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 30%;
 }
 
 #writer {
@@ -96,10 +113,17 @@ article {
 }
 
 #writer h4 {
-  position: absolute;
   left: 17.5%;
+  display: block;
 }
 
 article p {
   width: 65%;
+}
+
+.main-icons{
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
 }
