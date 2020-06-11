@@ -220,5 +220,24 @@ article p {
   font-size: 13px;
   font-weight: 300;
   line-height:17px
-
 }
+
+.inflation-description span{
+  font-weight: 700;
+  font-size: 11;
+ }
+
+
+ .inflation-desc p{
+  font-family:  'georgia', "times new roman", times, serif;
+   font-size: 16px;
+   color: 3333;
+ }
+ .inflation-desc{
+   font-family:  'georgia', "times new roman", times, serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #727272;
+   line-height: 18px;
+  
+ }
