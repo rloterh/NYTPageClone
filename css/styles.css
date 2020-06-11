@@ -101,7 +101,7 @@ h1>span{
   color: #a7a8a7;
 }
 
-article {
+.main-article {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -153,4 +153,15 @@ section aside div {
 
 .real-container {
   width: 90%;
+}
+
+.inflation-grid-container{
+  display: grid;
+  border: 1px solid #000;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+}
+
+.inflation-description{
+  display: block;
 }
