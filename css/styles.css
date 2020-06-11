@@ -124,6 +124,33 @@ article p {
 .main-icons{
   width: 65%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-left: 0;
+}
+
+.article-subscribe {
+  text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+section aside {
+  align-self: center;
+  margin-right: 15px;
+  
+}
+
+section aside img {
+  width: 75px;
+  height: 75px;
+}
+
+section aside div {
+  display: flex;
+}
+
+.real-container {
+  width: 90%;
 }
