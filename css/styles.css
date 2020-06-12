@@ -387,3 +387,13 @@ article p {
   margin-bottom: 20px;
 }
 
+.footer-icons {
+  display: flex;
+}
+
+.footer-icons img {
+  margin-right: 10px;
+  padding-top: 18px;
+  width: 13px;
+  height: 13px;
+}
