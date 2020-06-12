@@ -314,11 +314,13 @@ article p {
 
 .more-main-flex{
   display: flex;
+  flex-flow: column;
   
 }
 
 .first-section{
-  border-top: solid 1px #000;
+ display: block;
+
 }
 
 .first-section h3{
@@ -326,9 +328,9 @@ article p {
 }
 
 .more-grid{
+  border-top: solid 1px #000;
   flex: 3;
   display: grid;
-  /* margin: 0 auto; */
   width: 65%;
   grid-template-columns: auto auto auto;
   padding-left: 0;
@@ -388,9 +390,17 @@ article p {
 }
 
 .more-aside{
+  width: 600px;
   border-top: 1px solid #000;
   flex: 1;
-  height: 400px;
+  display: flex;
+  flex-flow: column;
+  
+
+}
+
+.more-aside h3{
+  align-self: start;
 }
 
 .footer-header {
