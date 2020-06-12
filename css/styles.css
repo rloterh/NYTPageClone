@@ -326,3 +326,35 @@ article p {
   flex: 1;
   height: 400px;
 }
+
+.footer-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  border-bottom: 1px solid grey;
+}
+
+.footer-content :nth-child(6) h3 {
+  line-height: 0.7;
+}
+
+.anchors a {
+  display: block;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
