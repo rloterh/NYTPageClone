@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #b9b6b6;
   box-sizing: border-box;
 }
 
@@ -20,9 +20,12 @@ header {
   position: fixed;
   width: 100vw;
   top: 0;
-  opacity: 2;
-  background-color: rgb(241, 241, 241);
+  opacity: 50;
+  visibility: visible;
   z-index: 3;
+  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
 }
 
 #folded-menu-icon{
