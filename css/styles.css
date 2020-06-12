@@ -255,7 +255,7 @@ article p {
   
  }
 
- .inflation-container, .more-container-flex {
+ .inflation-container {
    position: relative;
    left: 18%;
  }
@@ -329,19 +329,29 @@ article p {
 
 .more-grid{
   border-top: solid 1px #000;
-  
   display: grid;
-  width: 60%;
+  width: 45%;
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 0;
-  justify-items: left;
+  
   grid-gap: 10px;
   margin-bottom: 50px;
 }
 
-#needToScaled {
+.more-grid :nth-child(8) {
+  width: 95%;
   grid-column: span 3;
+  border-top: 1px solid black;
+  justify-self: left;
 }
+
+.more-grid :nth-child(1) {
+  width: 95%;
+  grid-column: span 3;
+  
+  justify-self: left;
+}
+
+
 
 
 
@@ -471,7 +481,8 @@ article p {
 
 .real-flex-container {
   display: flex;
-  width: 100vw;
+  justify-content: center;
+  
 }
 
 
