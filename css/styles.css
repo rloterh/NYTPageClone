@@ -260,4 +260,26 @@ article p {
   margin-bottom: 20px;
 }
 
+.article-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.article-icons button {
+  background-color: rgb(86, 123, 149);
+  width: 50%;
+  height: 40px;
+  color: white;
+}
+
+.article-icons-icons {
+  display: flex;
+}
+
+.article-button {
+  width: 100%;
+}
+
  
