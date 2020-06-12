@@ -282,4 +282,47 @@ article p {
   width: 100%;
 }
 
- 
+.more-main-flex{
+  display: flex;
+  border: solid 1px #000;
+}
+
+.first-section h3{
+  display: block;
+}
+
+.more-grid{
+  flex: 3;
+  display: grid;
+  /* margin: 0 auto; */
+  width: 65%;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.more-item img, .editor-pick-item img{
+  width: 272px;
+  height: 180px;
+}
+
+.more-img-caption,
+.more-img-desc,
+.more-img-date,
+.editors-pick-container h3,
+.editor-p-img-caption,
+.editor-p-img-date{
+  display: block;
+}
+
+.editors-pick-flex{
+  display: flex;
+}
+.editor-pick-item{
+  padding-right: 20px;
+}
+
+.more-aside{
+  border-top: 1px solid #000;
+  flex: 1;
+  height: 400px;
+}
