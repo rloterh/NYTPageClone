@@ -329,12 +329,21 @@ article p {
 
 .more-grid{
   border-top: solid 1px #000;
-  flex: 3;
+  
   display: grid;
-  width: 65%;
-  grid-template-columns: auto auto auto;
+  width: 60%;
+  grid-template-columns: repeat(3, 1fr);
   padding-left: 0;
+  justify-items: left;
+  grid-gap: 10px;
+  margin-bottom: 50px;
 }
+
+#needToScaled {
+  grid-column: span 3;
+}
+
+
 
 .more-item img, .editor-pick-item img{
   width: 272px;
@@ -390,7 +399,8 @@ article p {
 }
 
 .more-column-2{
-  width:  20%;
+  margin-left: 25px;
+  width: 10%;
   border-top: 1px solid #000;
   display: flex;
   flex-flow: column;
@@ -458,3 +468,10 @@ article p {
   width: 13px;
   height: 13px;
 }
+
+.real-flex-container {
+  display: flex;
+  width: 100vw;
+}
+
+
