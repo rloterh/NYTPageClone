@@ -312,11 +312,7 @@ article p {
   font-weight: bold;
 }
 
-.more-container-flex{
-  display: flex;
-  flex-flow: column;
-  
-}
+
 
 .first-section{
  display: block;
@@ -421,13 +417,15 @@ article p {
   margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
+
+  
 }
 
 .footer-content {
   display: flex;
   justify-content: space-around;
-  margin-left: 17%;
-  margin-right: 17%;
+  margin-left: 19%;
+  margin-right: 19%;
   margin-bottom: 15px;
   line-height: 1.5;
   border-bottom: 1px solid rgb(214, 203, 203);
@@ -484,5 +482,7 @@ article p {
   justify-content: center;
   
 }
+
+
 
 
