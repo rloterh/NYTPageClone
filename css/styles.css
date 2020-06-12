@@ -13,11 +13,16 @@ header {
 
 .nav-flex-container{
   display: flex;
-  justify-content: space-between;
-  margin: 0 134px;
+  justify-content: space-around;
   padding: 2px 15px;
   font-family: 'Libre Franklin', helvetica, arial, sans-serif;
   align-items: center;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  opacity: 2;
+  background-color: rgb(241, 241, 241);
+  z-index: 3;
 }
 
 #folded-menu-icon{
@@ -110,6 +115,15 @@ h1>span{
   width: 50%;
 }
 
+.main-article > p {
+  width: 70%;
+}
+
+
+
+.article-footer {
+  width: 87%;
+}
 #writer {
   width: 100%;
 }
@@ -121,10 +135,12 @@ h1>span{
 
 article p {
   width: 80%;
+  font-size: 20px;
+  line-height: 1.875rem;
 }
 
 .main-icons{
-  width: 65%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   margin-left: 0;
@@ -242,13 +258,13 @@ article p {
  }
 
  iframe {
-  width: 735px;
+  width: 35vw;
   height: 358px;
   
  }
 
 .super #super-jumbo-two {
-  width: 80%;
+  width: 70%;
   height: 500px;
   margin-bottom: 20px;
 }
@@ -271,8 +287,26 @@ article p {
   display: flex;
 }
 
+.article-icons-icons div {
+  background-color: rgb(238, 238, 238);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 15px;
+}
+.article-icons-icons div img {
+  padding-top: 10px;
+}
+
 .article-button {
   width: 100%;
+}
+
+.article-button button {
+  border: none;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .more-main-flex{
@@ -370,7 +404,7 @@ article p {
   margin-right: 17%;
   margin-bottom: 15px;
   line-height: 1.5;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(214, 203, 203);
 }
 
 .footer-content :nth-child(6) h3 {
@@ -379,12 +413,33 @@ article p {
 
 .anchors a {
   display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.anchors :hover {
+  text-decoration: underline;
 }
 
 .footer-end {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+ 
+}
+
+.footer-end div {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.footer-end div :hover {
+  text-decoration: underline;
+}
+
+.footer-end div a {
+  text-decoration: none;
+  color: #666;
 }
 
 .footer-icons {
