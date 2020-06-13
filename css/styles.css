@@ -255,7 +255,7 @@ article p {
   
  }
 
- .inflation-container, .more-main-flex {
+ .inflation-container, .more-container-flex {
    position: relative;
    left: 18%;
  }
@@ -312,7 +312,7 @@ article p {
   font-weight: bold;
 }
 
-.more-main-flex{
+.more-container-flex{
   display: flex;
   flex-flow: column;
   
@@ -389,18 +389,11 @@ article p {
   padding-right: 20px;
 }
 
-.more-aside{
-  width: 600px;
+.more-column-2{
+  width:  20%;
   border-top: 1px solid #000;
-  flex: 1;
   display: flex;
   flex-flow: column;
-  
-
-}
-
-.more-aside h3{
-  align-self: start;
 }
 
 .footer-header {
