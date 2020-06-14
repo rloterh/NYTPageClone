@@ -267,7 +267,7 @@ article p {
  }
 
 .super #super-jumbo-two {
-  width: 70%;
+  
   height: 500px;
   margin-bottom: 20px;
 }
@@ -324,7 +324,7 @@ article p {
 }
 
 .more-grid{
-  border-top: solid 1px #000;
+  
   display: grid;
   padding-left: 25%;
   grid-template-columns: repeat(3, 1fr);
@@ -335,19 +335,29 @@ article p {
 }
 
 .more-grid :nth-child(8) {
-  width: 95%;
+  width: 100%;
   grid-column: span 3;
-  border-top: 1px solid black;
+ 
   justify-self: left;
 }
 
 .more-grid :nth-child(1) {
-  width: 95%;
+  width: 100%;
   grid-column: span 3;
   
   justify-self: left;
 }
 
+.more-item {
+  width: 100%;
+}
+
+
+.more-item h3 {
+  border-top: solid 1px #000;
+  width: 100%;
+  
+}
 
 
 
@@ -400,12 +410,15 @@ article p {
 
 .more-column-2{
   margin-right: 25%;
-  margin-left: 20px;
+  margin-left: 40px;
   width: 100%;
-  border-top: 1px solid #000;
   display: flex;
   flex-flow: column;
   
+}
+
+.more-column-2 :nth-child(1) {
+  border-top: 1px solid black;
 }
 
 .footer-header {
