@@ -116,7 +116,7 @@ h1 > span {
 }
 
 article p {
-  width: 80%;
+  width: 90%;
   font-size: 20px;
   line-height: 1.875rem;
 }
@@ -178,7 +178,7 @@ article p {
 }
 
 .main-icons {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   margin-left: 0;
@@ -263,6 +263,14 @@ article p {
   margin-left: 15px;
 }
 
+.article-icons-icons div img {
+  padding-top: 10px;
+}
+
+.article-icons-icons :nth-child(5) {
+  background-color: white;
+}
+
 .footer-end div {
   margin-right: 10px;
   font-size: 10px;
@@ -283,6 +291,10 @@ article p {
   padding-top: 10px;
 }
 
+.more-item a {
+  text-decoration: none;
+}
+
 .section-2 aside div p {
   width: 100px;
   margin-bottom: 0;
@@ -300,6 +312,11 @@ article p {
 
 aside h5 {
   border-bottom: 1px solid #999;
+}
+
+aside div a{
+  display: flex;
+  text-decoration: none;
 }
 
 .inflation-grid-container {
@@ -356,10 +373,6 @@ iframe {
 
 .article-icons-icons {
   display: flex;
-}
-
-.article-icons-icons div img {
-  padding-top: 10px;
 }
 
 .article-button {
