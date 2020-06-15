@@ -17,6 +17,13 @@ header {
   font-family: 'Libre Franklin', helvetica, arial, sans-serif;
 }
 
+h1,
+.inflation-desc,
+.more-img-caption,
+.more-img-desc{
+  font-family:  'georgia', "times new roman", times, serif;
+}
+
 .nav-flex-container{
   display: flex;
   justify-content: space-around;
@@ -84,7 +91,6 @@ form button{
 }
 
 h1{
-  font-family:georgia, "times new roman", times, serif;
   font-size: 38px;
   color: #121212;
   font-weight: 700;
@@ -260,14 +266,12 @@ article p {
   font-size: 11;
  }
 
-
  .inflation-desc p{
-  font-family:  'georgia', "times new roman", times, serif;
    font-size: 16px;
    color: 3333;
  }
+
  .inflation-desc{
-   font-family:  'georgia', "times new roman", times, serif;
    font-size: 14px;
    font-weight: 300;
    color: #727272;
@@ -391,7 +395,6 @@ article p {
 
 
 .more-img-caption{
-  font-family: georgia, "times new roman", times, serif;
   font-size: 10px;
   font-weight: 400;
   color: #999;
@@ -403,7 +406,6 @@ article p {
 
 .more-img-desc{
   width: 302px;
-  font-family: georgia, "times new roman", times, serif;
   font-weight: 500;
   line-height: 22px;
   font-size: 16px;
