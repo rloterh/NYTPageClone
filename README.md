@@ -2,7 +2,7 @@
 
 > This is the Clone page of the New York Times
 
-![img](./images/Screenshot from 2020-06-15 12-03-06.png)
+![img](./images/Screenshot.png)
 
 
 
