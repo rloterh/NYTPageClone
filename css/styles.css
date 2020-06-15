@@ -65,7 +65,12 @@ h1,
   letter-spacing: 0.7px;
 }
 
-#logo {
+#logo-main {
+  width: 195px;
+  height: 26px;
+}
+
+#logo-2 {
   width: 195px;
   height: 26px;
 }
@@ -75,24 +80,25 @@ h1,
   align-items: baseline;
 }
 
-form button {
-  background-color: #121212;
-  color: #fff;
-  box-sizing: border-box;
-  height: 32px;
-  letter-spacing: 0.01em;
-  border: solid 1px #121212;
-  border-radius: 3px;
-  margin-top: 1px;
-  padding: 9px 13px 7px;
+#nav-right-suscribe {
+  border: 1px solid rgb(50, 104, 145);
+  background-color: rgb(50, 104, 145);
+  color: white;
+  height: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
-#nav-right-suscribe {
-  font-size: 13px;
+form button {
+  background-color: rgb(50, 104, 145);
+  color: #fff;
+  box-sizing: border-box;
+  height: 30px;
   letter-spacing: 0.01em;
-  font-weight: 400;
-  text-decoration: underline;
-  padding-right: 20px;
+  border: solid 1px rgb(50, 104, 145);
+  border-radius: 3px;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 h1 {
@@ -166,11 +172,7 @@ article p {
   width: 87%;
 }
 
-#writer {
-  width: 100%;
-}
-
-#writer h4 {
+.main-article h4 {
   left: 17.5%;
   display: block;
 }
@@ -396,7 +398,6 @@ iframe {
   width: 100%;
   grid-column: span 3;
   justify-self: left;
-  
 }
 
 .more-item {
