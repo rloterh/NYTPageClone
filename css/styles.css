@@ -11,11 +11,16 @@ header {
   box-sizing: border-box;
 }
 
+.nav-flex-container,
+#nav-right-suscribe,
+.inflation-description {
+  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+}
+
 .nav-flex-container{
   display: flex;
   justify-content: space-around;
   padding: 2px 15px;
-  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
   align-items: center;
   position: fixed;
   width: 100vw;
@@ -71,7 +76,6 @@ form button{
 }
 
 #nav-right-suscribe{
-  font-family:  helvetica, arial, sans-serif;
   font-size: 13px;
   letter-spacing: 0.01em;
   font-weight: 400;
@@ -103,11 +107,20 @@ h1>span{
 
 .main-img img, .main-img p{
   width: 65%;
+}
+
+.main-img p{
+  font-size: 15px;
   color: #6666;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .main-img p > span {
-  color: #a7a8a7;
+  font-size: 13px;
+  color: #888;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 .main-article {
@@ -149,6 +162,13 @@ article p {
   margin-left: 0;
 }
 
+.main-icons p{
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  line-height: 16px;
+}
+
 .main-icons-right {
   display: flex;
 }
@@ -164,11 +184,12 @@ article p {
 
 .main-icons-right div img {
   padding-top: 7px;
+  vertical-align: middle;
 }
 
 .main-icons-right :nth-child(5) {
   background-color: white;
-}
+  }
 
 .article-subscribe {
   text-align: center;
@@ -229,7 +250,6 @@ article p {
 
 .inflation-description{
   width: 240px;
-  font-family: arial, serif;
   font-size: 13px;
   font-weight: 300;
   line-height:17px
@@ -384,12 +404,6 @@ article p {
   line-height: 22px;
   font-size: 16px;
   color: #333;
-}
-
-.more-img-date{
-  font-family: arial, serif;
-  font-size: 12px;
-  color: #999;
 }
 
 .more-item p{
