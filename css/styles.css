@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
 
 body {
   padding: 0;
@@ -20,19 +20,16 @@ header {
 h1,
 .inflation-desc,
 .more-img-caption,
-.more-img-desc{
-  font-family:  'georgia', "times new roman", times, serif;
+.more-img-desc {
+  font-family: 'georgia', "times new roman", times, serif;
 }
 
 #first-div {
   display: flex;
   justify-content: center;
- 
 }
 
-
-
-.nav-flex-container{
+.nav-flex-container {
   display: flex;
   justify-content: space-around;
   padding: 2px 15px;
@@ -43,24 +40,24 @@ h1,
   opacity: 50;
   visibility: visible;
   z-index: 3;
-  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
   border-bottom: 1px solid #e2e2e2;
   background-color: white;
 }
 
-#folded-menu-icon{
+#folded-menu-icon {
   width: 16px;
   height: 16px;
   padding-right: 20px;
 }
 
-#search-icon{
-  width:  16px;
+#search-icon {
+  width: 16px;
   height: 16px;
   padding-right: 20px;
 }
 
-#nav-left-text{
+#nav-left-text {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
@@ -68,20 +65,20 @@ h1,
   letter-spacing: 0.7px;
 }
 
-#logo{
+#logo {
   width: 195px;
   height: 26px;
 }
 
-.nav-right-container{
+.nav-right-container {
   display: flex;
   align-items: baseline;
 }
 
-form button{
+form button {
   background-color: #121212;
   color: #fff;
-  box-sizing:border-box;
+  box-sizing: border-box;
   height: 32px;
   letter-spacing: 0.01em;
   border: solid 1px #121212;
@@ -90,7 +87,7 @@ form button{
   padding: 9px 13px 7px;
 }
 
-#nav-right-suscribe{
+#nav-right-suscribe {
   font-size: 13px;
   letter-spacing: 0.01em;
   font-weight: 400;
@@ -98,7 +95,7 @@ form button{
   padding-right: 20px;
 }
 
-h1{
+h1 {
   font-size: 38px;
   color: #121212;
   font-weight: 700;
@@ -106,10 +103,9 @@ h1{
   font-style: italic;
   text-align: left;
   padding-top: 40px;
- 
 }
 
-h1>span{
+h1 > span {
   text-align: left;
 }
 
@@ -119,18 +115,20 @@ h1>span{
   align-items: center;
 }
 
-.main-img img, .main-img p{
+.main-img img,
+.main-img p {
   width: 65%;
 }
 
-.main-img p, .super p{
+.main-img p,
+.super p {
   font-size: 15px;
   color: #6666;
   font-weight: 400;
   line-height: 20px;
 }
 
-.super p{
+.super p {
   margin: 0;
 }
 
@@ -153,11 +151,10 @@ h1>span{
   width: 70%;
 }
 
-
-
 .article-footer {
   width: 87%;
 }
+
 #writer {
   width: 100%;
 }
@@ -167,20 +164,14 @@ h1>span{
   display: block;
 }
 
-article p {
-  width: 80%;
-  font-size: 20px;
-  line-height: 1.875rem;
-}
-
-.main-icons{
+.main-icons {
   width: 80%;
   display: flex;
   justify-content: space-between;
   margin-left: 0;
 }
 
-.main-icons p{
+.main-icons p {
   font-size: 13px;
   font-weight: 500;
   color: #333;
@@ -207,7 +198,7 @@ article p {
 
 .main-icons-right :nth-child(5) {
   background-color: white;
-  }
+}
 
 .article-subscribe {
   text-align: center;
@@ -245,7 +236,6 @@ article p {
   line-height: 17px;
   color: #333;
   font-weight: 500;
-  
 }
 
 .real-container {
@@ -253,11 +243,11 @@ article p {
   display: flex;
 }
 
-aside h5{
+aside h5 {
   border-bottom: 1px solid #999999;
 }
 
-.inflation-grid-container{
+.inflation-grid-container {
   margin: 0 auto;
   width: 65%;
   display: grid;
@@ -265,53 +255,50 @@ aside h5{
   padding: 20px;
 }
 
-.inflation-description{
+.inflation-description {
   display: block;
 }
 
-.inflation-item  img{
+.inflation-item img {
   max-width: 240px;
   max-height: 132px;
 }
 
-.inflation-description{
+.inflation-description {
   width: 240px;
   font-size: 13px;
   font-weight: 300;
-  line-height:17px
+  line-height: 17px
 }
 
-.inflation-description span{
+.inflation-description span {
   font-weight: 700;
   font-size: 11;
- }
+}
 
- .inflation-desc p{
-   font-size: 16px;
-   color: 3333;
- }
+.inflation-desc p {
+  font-size: 16px;
+  color: 3333;
+}
 
- .inflation-desc{
-   font-size: 14px;
-   font-weight: 300;
-   color: #727272;
-   line-height: 18px;
-  
- }
+.inflation-desc {
+  font-size: 14px;
+  font-weight: 300;
+  color: #727272;
+  line-height: 18px;
+}
 
- .inflation-container {
-   position: relative;
-   left: 18%;
- }
+.inflation-container {
+  position: relative;
+  left: 18%;
+}
 
- iframe {
+iframe {
   width: 35vw;
   height: 358px;
-  
- }
+}
 
 .super #super-jumbo-two {
-  
   height: 500px;
   margin-bottom: 20px;
 }
@@ -342,6 +329,7 @@ aside h5{
   text-align: center;
   margin-left: 15px;
 }
+
 .article-icons-icons div img {
   padding-top: 10px;
 }
@@ -356,39 +344,31 @@ aside h5{
   font-weight: bold;
 }
 
-
-
-.first-section{
- display: block;
-
-}
-
-.first-section h3{
+.first-section {
   display: block;
 }
 
-.more-grid{
-  
+.first-section h3 {
+  display: block;
+}
+
+.more-grid {
   display: grid;
   padding-left: 25%;
   grid-template-columns: repeat(3, 1fr);
-  
   grid-gap: 10px;
   margin-bottom: 50px;
-  
 }
 
 .more-grid :nth-child(8) {
   width: 100%;
   grid-column: span 3;
- 
   justify-self: left;
 }
 
 .more-grid :nth-child(1) {
   width: 100%;
   grid-column: span 3;
-  
   justify-self: left;
 }
 
@@ -396,25 +376,17 @@ aside h5{
   width: 100%;
 }
 
-
 .more-item h3 {
   border-top: solid 1px #000;
   width: 100%;
-  
 }
 
-
-
-
-.more-item img, .editor-pick-item img{
- 
+.more-item img,
+.editor-pick-item img {
   height: 180px;
-  
 }
 
-
-
-.more-img-caption{
+.more-img-caption {
   font-size: 10px;
   font-weight: 400;
   color: #999;
@@ -424,7 +396,7 @@ aside h5{
   padding-bottom: 4px;
 }
 
-.more-img-desc{
+.more-img-desc {
   width: 302px;
   font-weight: 500;
   line-height: 22px;
@@ -432,25 +404,25 @@ aside h5{
   color: #333;
 }
 
-.more-item p{
+.more-item p {
   margin: 0;
   padding-top: 10px;
 }
 
-.editors-pick-flex{
+.editors-pick-flex {
   display: flex;
 }
-.editor-pick-item{
+
+.editor-pick-item {
   padding-right: 20px;
 }
 
-.more-column-2{
+.more-column-2 {
   margin-right: 25%;
   margin-left: 40px;
   width: 100%;
   display: flex;
   flex-flow: column;
-  
 }
 
 .more-column-2 :nth-child(1) {
@@ -462,8 +434,6 @@ aside h5{
   margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
-
-  
 }
 
 .footer-content {
@@ -494,7 +464,6 @@ aside h5{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
- 
 }
 
 .footer-end div {
@@ -525,9 +494,4 @@ aside h5{
 .real-flex-container {
   display: flex;
   justify-content: center;
-  
 }
-
-
-
-
