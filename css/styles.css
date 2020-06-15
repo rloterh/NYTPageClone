@@ -109,10 +109,21 @@ h1 > span {
   text-align: left;
 }
 
+article p {
+  width: 80%;
+  font-size: 20px;
+  line-height: 1.875rem;
+}
+
 .main-img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.inflation-description span {
+  font-weight: 700;
+  font-size: 11;
 }
 
 .main-img img,
@@ -171,6 +182,11 @@ h1 > span {
   margin-left: 0;
 }
 
+.inflation-item img {
+  max-width: 240px;
+  max-height: 132px;
+}
+
 .main-icons p {
   font-size: 13px;
   font-weight: 500;
@@ -189,6 +205,18 @@ h1 > span {
   background-color: rgb(238, 238, 238);
   border-radius: 50%;
   margin-left: 10px;
+}
+
+.more-item img,
+.editor-pick-item img {
+  height: 180px;
+}
+
+.footer-icons img {
+  margin-right: 10px;
+  padding-top: 18px;
+  width: 13px;
+  height: 13px;
 }
 
 .main-icons-right div img {
@@ -216,6 +244,7 @@ h1 > span {
 .section-2 aside {
   align-self: center;
   margin-right: 20%;
+  margin-left: 20px;
 }
 
 .section-2 aside img {
@@ -223,9 +252,33 @@ h1 > span {
   height: 75px;
 }
 
+.article-icons-icons div {
+  background-color: rgb(238, 238, 238);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.footer-end div {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
 .section-2 aside div {
   display: flex;
   margin-bottom: 15px;
+}
+
+.inflation-desc p {
+  font-size: 16px;
+  color: 3333;
+}
+
+.more-item p {
+  margin: 0;
+  padding-top: 10px;
 }
 
 .section-2 aside div p {
@@ -244,7 +297,7 @@ h1 > span {
 }
 
 aside h5 {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #999;
 }
 
 .inflation-grid-container {
@@ -256,29 +309,11 @@ aside h5 {
 }
 
 .inflation-description {
-  display: block;
-}
-
-.inflation-item img {
-  max-width: 240px;
-  max-height: 132px;
-}
-
-.inflation-description {
   width: 240px;
   font-size: 13px;
   font-weight: 300;
-  line-height: 17px
-}
-
-.inflation-description span {
-  font-weight: 700;
-  font-size: 11;
-}
-
-.inflation-desc p {
-  font-size: 16px;
-  color: 3333;
+  line-height: 17px;
+  display: block;
 }
 
 .inflation-desc {
@@ -319,15 +354,6 @@ iframe {
 
 .article-icons-icons {
   display: flex;
-}
-
-.article-icons-icons div {
-  background-color: rgb(238, 238, 238);
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  margin-left: 15px;
 }
 
 .article-icons-icons div img {
@@ -381,11 +407,6 @@ iframe {
   width: 100%;
 }
 
-.more-item img,
-.editor-pick-item img {
-  height: 180px;
-}
-
 .more-img-caption {
   font-size: 10px;
   font-weight: 400;
@@ -402,11 +423,6 @@ iframe {
   line-height: 22px;
   font-size: 16px;
   color: #333;
-}
-
-.more-item p {
-  margin: 0;
-  padding-top: 10px;
 }
 
 .editors-pick-flex {
@@ -466,11 +482,6 @@ iframe {
   margin-bottom: 20px;
 }
 
-.footer-end div {
-  margin-right: 10px;
-  font-size: 10px;
-}
-
 .footer-end div :hover {
   text-decoration: underline;
 }
@@ -482,13 +493,6 @@ iframe {
 
 .footer-icons {
   display: flex;
-}
-
-.footer-icons img {
-  margin-right: 10px;
-  padding-top: 18px;
-  width: 13px;
-  height: 13px;
 }
 
 .real-flex-container {
