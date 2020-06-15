@@ -291,6 +291,11 @@ article p {
   padding-top: 10px;
 }
 
+aside div a {
+  display: flex;
+  text-decoration: none;
+}
+
 .more-item a {
   text-decoration: none;
 }
@@ -312,11 +317,6 @@ article p {
 
 aside h5 {
   border-bottom: 1px solid #999;
-}
-
-aside div a{
-  display: flex;
-  text-decoration: none;
 }
 
 .inflation-grid-container {
@@ -393,10 +393,17 @@ iframe {
   display: block;
 }
 
+.anchors a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
 .more-grid {
   display: grid;
   padding-left: 25%;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: min-content;
   grid-gap: 10px;
   margin-bottom: 50px;
 }
@@ -411,6 +418,15 @@ iframe {
   width: 100%;
   grid-column: span 3;
   justify-self: left;
+}
+
+.footer-end div a {
+  text-decoration: none;
+  color: #666;
+}
+
+.more-grid a:visited {
+  color: black;
 }
 
 .more-item {
@@ -449,9 +465,9 @@ iframe {
 }
 
 .more-column-2 {
-  margin-right: 25%;
+  margin-right: 200px;
   margin-left: 40px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-flow: column;
 }
@@ -481,12 +497,6 @@ iframe {
   line-height: 0.7;
 }
 
-.anchors a {
-  display: block;
-  text-decoration: none;
-  color: black;
-}
-
 .anchors :hover {
   text-decoration: underline;
 }
@@ -499,11 +509,6 @@ iframe {
 
 .footer-end div :hover {
   text-decoration: underline;
-}
-
-.footer-end div a {
-  text-decoration: none;
-  color: #666;
 }
 
 .footer-icons {
