@@ -24,6 +24,14 @@ h1,
   font-family:  'georgia', "times new roman", times, serif;
 }
 
+#first-div {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+
 .nav-flex-container{
   display: flex;
   justify-content: space-around;
@@ -98,7 +106,7 @@ h1{
   font-style: italic;
   text-align: left;
   padding-top: 40px;
-  padding-left: 34%;
+ 
 }
 
 h1>span{
