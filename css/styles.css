@@ -47,12 +47,7 @@ h1,
   background-color: white;
 }
 
-#folded-menu-icon {
-  width: 16px;
-  height: 16px;
-  padding-right: 20px;
-}
-
+#folded-menu-icon,
 #search-icon {
   width: 16px;
   height: 16px;
@@ -67,11 +62,7 @@ h1,
   letter-spacing: 0.7px;
 }
 
-#logo-main {
-  width: 195px;
-  height: 26px;
-}
-
+#logo-main,
 #logo-2 {
   width: 195px;
   height: 26px;
@@ -308,6 +299,11 @@ aside div a {
   text-decoration: none;
 }
 
+.more-column-2 p {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
 .section-2 aside div p {
   width: 100px;
   margin-bottom: 0;
@@ -414,6 +410,7 @@ iframe {
   grid-template-rows: min-content;
   grid-gap: 10px;
   margin-bottom: 50px;
+  width: 60%;
 }
 
 .more-grid :nth-child(8) {
@@ -474,7 +471,7 @@ iframe {
 .more-column-2 {
   margin-right: 200px;
   margin-left: 40px;
-  width: 40%;
+  width: 18%;
   display: flex;
   flex-flow: column;
 }
@@ -504,7 +501,12 @@ iframe {
   line-height: 0.7;
 }
 
-.anchors :hover {
+.sticky-footer :nth-child(2) {
+  padding-left: 200px;
+}
+
+.anchors :hover,
+.footer-end div :hover {
   text-decoration: underline;
 }
 
@@ -513,14 +515,6 @@ iframe {
   justify-content: center;
   margin-bottom: 20px;
   position: relative;
-}
-
-.sticky-footer :nth-child(2) {
-  padding-left: 200px;
-}
-
-.footer-end div :hover {
-  text-decoration: underline;
 }
 
 .footer-icons {
