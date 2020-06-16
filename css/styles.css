@@ -170,6 +170,10 @@ article p {
   width: 70%;
 }
 
+#sizeable-p {
+  font-size: 12px;
+}
+
 .article-footer {
   width: 87%;
 }
