@@ -325,7 +325,7 @@ aside h5 {
 
 .inflation-grid-container {
   margin: 0 auto;
-  width: 65%;
+  width: 50%;
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 20px;
@@ -347,7 +347,7 @@ aside h5 {
 }
 
 .inflation-container {
-  padding-left: 18%;
+  padding-left: 25%;
 }
 
 iframe {
