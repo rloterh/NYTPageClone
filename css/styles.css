@@ -103,7 +103,7 @@ h1 {
   padding-top: 40px;
 }
 
-h1>span {
+h1 > span {
   text-align: left;
 }
 
@@ -141,7 +141,7 @@ article p {
   margin: 0;
 }
 
-.main-img p>span {
+.main-img p > span {
   font-size: 13px;
   color: #888;
   font-weight: 400;
@@ -156,7 +156,7 @@ article p {
   width: 50%;
 }
 
-.main-article>p {
+.main-article > p {
   width: 70%;
 }
 
@@ -396,14 +396,17 @@ iframe {
   color: black;
 }
 
+#Education {
+  border-bottom: 1px solid #888;
+}
+
 .more-grid {
   display: grid;
-  padding-left: 25%;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: min-content;
   grid-gap: 10px;
   margin-bottom: 50px;
-  width: 60%;
+  width: 33%;
 }
 
 .more-grid :nth-child(8) {
@@ -421,6 +424,12 @@ iframe {
 .footer-end div a {
   text-decoration: none;
   color: #666;
+}
+
+.footer-header div a {
+  text-decoration: none;
+  color: #000;
+  font-size: 10px;
 }
 
 .more-grid a:visited {
@@ -464,7 +473,7 @@ iframe {
 .more-column-2 {
   margin-right: 200px;
   margin-left: 40px;
-  width: 18%;
+  width: 12%;
   display: flex;
   flex-flow: column;
 }
@@ -480,14 +489,31 @@ iframe {
   justify-content: space-around;
 }
 
+.footer-header-container {
+  display: flex;
+  width: 80em;
+  justify-content: space-between;
+  border-top: 2px solid #888;
+  padding-top: 10px;
+}
+
 .footer-content {
   display: flex;
   justify-content: space-around;
-  margin-left: 19%;
-  margin-right: 19%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 15px;
   line-height: 1.5;
   border-bottom: 1px solid rgb(214, 203, 203);
+}
+
+.footer-content > :nth-child(6) {
+  border-left: 1px solid #888;
+  padding-left: 8px;
+}
+
+.footer-content > :nth-child(6) a {
+  line-height: 2.5;
 }
 
 .footer-content :nth-child(6) h3 {
@@ -496,8 +522,6 @@ iframe {
 
 footer {
   background-color: #fff;
-  border-bottom: 1px solid #e2e2e2;
-  border-top: 2px solid #e2e2e2;
   content: '';
   display: block;
   height: 1px;
@@ -516,8 +540,7 @@ footer {
 .footer-end {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  position: relative;
+  margin-bottom: 70px;
 }
 
 .footer-icons {
