@@ -108,7 +108,7 @@ h1 > span {
 }
 
 article p {
-  width: 90%;
+  width: 100%;
   font-size: 20px;
   line-height: 1.875rem;
 }
@@ -163,7 +163,7 @@ article p {
 }
 
 .main-article > p {
-  width: 70%;
+  width: 90%;
 }
 
 #sizeable-p {
@@ -180,7 +180,7 @@ article p {
 }
 
 .main-icons {
-  width: 70%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-left: 0;
@@ -249,7 +249,8 @@ article p {
 
 .section-2 aside {
   align-self: center;
-  margin-right: 30%;
+  margin-right: 25%;
+  margin-left: 30px;
 }
 
 .section-2 aside img {
@@ -357,6 +358,7 @@ iframe {
 .super #super-jumbo-two {
   height: 500px;
   margin-bottom: 20px;
+  width: 90%;
 }
 
 .article-icons {
@@ -411,7 +413,7 @@ iframe {
   grid-template-rows: min-content;
   grid-gap: 10px;
   margin-bottom: 50px;
-  width: 30%;
+  width: 40%;
 }
 
 .more-grid :nth-child(8) {
