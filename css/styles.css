@@ -351,7 +351,7 @@ aside h5 {
 }
 
 iframe {
-  width: 25vw;
+  width: 30vw;
   height: 358px;
 }
 
@@ -364,7 +364,7 @@ iframe {
 .article-icons {
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  width: 90%;
   margin-bottom: 20px;
 }
 
