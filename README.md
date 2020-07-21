@@ -24,13 +24,13 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Eyüp Sercan UYGUR**
 
 - Github: [@githubhandle](https://github.com/eypsrcnuygr)
 - Twitter: [@twitterhandle](https://twitter.com/eypsrcnuygr)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ey%C3%BCp-sercan-uygur-a55989a1/)
 
-👤 **Author2**
+👤 **Robert Loterh**
 
 - Github: [@githubhandle](https://github.com/rloterh )
 - Twitter: [@twitterhandle](https://twitter.com/RLoterh )
