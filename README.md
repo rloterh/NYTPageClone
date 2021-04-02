@@ -4,7 +4,7 @@
 
 
 ## Description
-The rubric of this project is to demonstrate positioning of HTML elements using CSS3 flexbox, css3 grid and floats. [An article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) from [The New York Times website](https://www.nytimes.com/) is the model of this project. The specification for this project is a part of [The Odin Project](https://www.theodinproject.com/).
+The rubric of this project is to demonstrate positioning of HTML elements using CSS3 flexbox, css3 grid and floats. [An article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) from [The New York Times website](https://www.nytimes.com/) is the model for this project. The specification for this project is a part of [The Odin Project](https://www.theodinproject.com/).
 
 
 
@@ -38,8 +38,8 @@ The rubric of this project is to demonstrate positioning of HTML elements using 
 
 ## Getting Started
 
-1. - Copy the git link <code>https://github.com/rloterh/NYTPageClone/.git</code> of this project
-2. - In your terminal run the command <code>git clone https://github.com/rloterh/NYTPageClone/.git</code>
+1. - Copy the git link `https://github.com/rloterh/NYTPageClone/.git` of this project
+2. - In your terminal run the command `git clone https://github.com/rloterh/NYTPageClone/.git`
 3. - Navigate to the cloned project directory
 4. - Within the project root directory launch `index.html` in a web browser
 
