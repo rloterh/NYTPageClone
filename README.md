@@ -34,7 +34,7 @@ The rubric of this project is to demonstrate positioning of HTML elements using 
 
 - HTML
 - CSS
-- 
+
 
 ## Getting Started
 
