@@ -38,8 +38,8 @@ The rubric of this project is to demonstrate positioning of HTML elements using 
 
 ## Getting Started
 
-1. - Copy the git link `https://github.com/rloterh/NYTPageClone/.git` of this project
-2. - In your terminal run the command `git clone https://github.com/rloterh/NYTPageClone/.git`
+1. - Copy the git link `https://github.com/rloterh/NYTPageClone.git` of this project
+2. - In your terminal run the command `git clone https://github.com/rloterh/NYTPageClone.git`
 3. - Navigate to the cloned project directory
 4. - Within the project root directory launch `index.html` in a web browser
 
